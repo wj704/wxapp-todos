@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index", // 设置页面路径，项目打开后找到这个路径下的文件
+    "pages/logs/logs"
+  ],
+  "window":{ // 设置默认页面的窗口表现
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "TODOS",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": { // 设置底部tab的表现
+    "borderStyle": "white",
+    "backgroundColor": "#f5f5f5",
+    "selectedColor": "#222",
+    "list": [ // 对应底部下面两个菜单项；TODOS和LOGS
+      {
+        "pagePath": "pages/index/index",
+        "text": "TODOS",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-actived.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "LOGS",
+        "iconPath": "images/note.png",
+        "selectedIconPath": "images/note-actived.png"
+      }
+    ]
+  }
+}
