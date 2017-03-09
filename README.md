@@ -1,11 +1,10 @@
-# WeApp TODOS
+# WxApp TODOS
 
-> A todos app by wechat weapp runtime
+> A todos app by wechat wxapp runtime
 
 ## Preview
 
-![TODOS](./preview.png)
+![TODOS](./preview.gif)
 
-## License
-
-[MIT](./LICENSE) &copy; [汪磊](http://github.com/zce)
+## 更多详解
+http://www.cnblogs.com/wj204/p/6517385.html
